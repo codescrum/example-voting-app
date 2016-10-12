@@ -13,7 +13,6 @@ body{
   opacity:0;
   transition: all 1s linear;
 }
-
 .divider{
   height: 150px;
   width:2px;
@@ -23,32 +22,14 @@ body{
   float: left;
   transform: translateY(-50%);
 }
-
-.horizontal-divider{
-  height: 2px;
-  width: 450px;
-  background-color: #C0C9CE;
-  position: relative;
-}
-
-#top-divider{
-  /*top: 36%;*/
-  top: 10%;
-}
-
-#bottom-divider{
-  /*top: 64%;*/
-  top: 90%
-}
-
 #codescrum-container{
-  position: absolute;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  height: 150px;
+  height: auto;
   text-align: center;
   z-index: 1;
 }
-
 #codescrum-background{
   position: relative;
   width: 250px;
@@ -59,13 +40,11 @@ body{
   margin: 0 auto;
   top: 72px;
 }
-
 #codescrum-logo{
   position: relative;
   width: 210px;
   height: auto;
 }
-
 #tet-container{
   position: relative;
   width: 100%;
@@ -74,20 +53,16 @@ body{
   padding-top: 30px;
   z-index: 1;
 }
-
 #tet-logo{
   width: 20vw;
   filter: invert(100%);
 }
-
 #background-stats-1{
   background-color: #01afd1;
 }
-
 #background-stats-2{
   background-color: #B34FC4;
 }
-
 #content-container{
   z-index:2;
   position:relative;
@@ -141,11 +116,9 @@ body{
   text-align: left;
   padding-left: 50px;
 }
-
 #choice .choice .label{
   text-transform: uppercase;
 }
-
 #choice .choice.dogs{
   color: #B34FC4;
   float: right;
@@ -170,5 +143,35 @@ body{
 }
 
 @media only screen and (min-width: 320px) and (max-width: 667px){
-
+  #codescrum-background{
+    width: 120px;
+    height: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    top: 32px;
+  }
+  #codescrum-logo{
+    width: 110px;
+  }
+  #tet-logo{
+    width: 30vw;
+    filter: invert(100%);
+  }
+  #result{
+    font-size: 20px;
+  }
+  #choice{
+    font-size: 20px;
+    width: 90%;
+    margin: 0 20px;
+    height: 150px;
+  }
+  #choice .choice{
+    width: 49%;
+  }
+  #content-container{
+    width: 100%;
+    height: 81%;
+    padding: 0;
+  }
 }
