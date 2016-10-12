@@ -24,6 +24,59 @@ body{
   transform: translateY(-50%);
 }
 
+.horizontal-divider{
+  height: 2px;
+  width: 450px;
+  background-color: #C0C9CE;
+  position: relative;
+}
+
+#top-divider{
+  /*top: 36%;*/
+  top: 10%;
+}
+
+#bottom-divider{
+  /*top: 64%;*/
+  top: 90%
+}
+
+#codescrum-container{
+  position: relative;
+  width: 100%;
+  height: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+#codescrum-background{
+  position: ;
+  left: 43%;
+  width: 200px;
+  height: 100px; /* as the half of the width */
+  background-color: #FFF;
+  border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+  border-top-right-radius: 110px; /* 100px of height + 10px of border */
+}
+
+#codescrum-logo{
+  width: 25vw;
+}
+
+#tet-container{
+  position: relative;
+  width: 100%;
+  height: 0;
+  text-align: center;
+  padding-top: 30px;
+  z-index: 1;
+}
+
+#tet-logo{
+  width: 20vw;
+  filter: invert(100%);
+}
+
 #background-stats-1{
   background-color: #01afd1;
 }
@@ -39,7 +92,7 @@ body{
   display:table;
   padding:10px;
   max-width:940px;
-  height:100%;
+  height:85%;
 }
 #content-container-center{
   display:table-cell;
@@ -66,6 +119,7 @@ body{
   font-weight: 600;
   width: 450px;
   height: 200px;
+  margin-left: 10px;
 }
 #choice a{
   text-decoration:none;
@@ -109,4 +163,8 @@ body{
   margin-bottom:-4px;
   width:50%;
   height:100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 667px){
+
 }

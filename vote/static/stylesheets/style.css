@@ -35,19 +35,40 @@ button.b{
   background-color: #B34FC4;
 }
 
+#choice button{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#codescrum-container{
+  margin-top: 60px;
+}
+
+#codescrum-logo{
+  width: 35vw;
+}
+
+#tet-container{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+#tet-logo{
+  width: 25vw;
+  height: auto;
+}
+
 #tip{
-  text-align: left;
+  text-align: center;
   color: #c0c9ce;
   font-size: 14px;
 }
 
 #hostname{
-  position: absolute;
-  bottom: 100px;
-  right: 0;
-  left: 0;
+  position: static;
+  margin-top: 20px;
   color: #8f9ea8;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 #content-container{
@@ -58,6 +79,7 @@ button.b{
   padding: 10px;
   max-width: 940px;
   height: 100%;
+  margin-top: 30px;
 }
 #content-container-center{
   display: table-cell;
@@ -126,4 +148,16 @@ button.b{
   margin-bottom:-4px;
   width:50%;
   height:100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 667px){
+  #codescrum-logo{
+    width: 60vw;
+  }
+  #tet-logo{
+    width: 35vw;
+  }
+  #tet-container{
+    margin-top: 15px;
+  }
 }
