@@ -23,3 +23,4 @@ Architecture
 * A Postgres database backed by a Docker volume
 * A Node.js webapp which shows the results of the voting in real time
 
+Ps: The code contains Google Analytics code for both voting app and result app. If you plan to use it make sure to remove both <head> and <body> code
