@@ -1,5 +1,6 @@
 # Using official python runtime base image
 FROM python:2.7-alpine
+MAINTAINER Cristian Riaño <cristian.riano@codescrum.com>
 
 # Set the application directory
 WORKDIR /app

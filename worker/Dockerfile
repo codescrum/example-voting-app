@@ -1,4 +1,5 @@
 FROM microsoft/dotnet:1.0.0-preview1
+MAINTAINER Cristian Riaño <cristian.riano@codescrum.com>
 
 WORKDIR /app
 

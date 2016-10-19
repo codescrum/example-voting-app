@@ -1,4 +1,5 @@
 FROM node:5.11.0-slim
+MAINTAINER Cristian Riaño <cristian.riano@codescrum.com>
 
 WORKDIR /app
 
