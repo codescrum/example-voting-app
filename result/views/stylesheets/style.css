@@ -54,6 +54,7 @@ body{
   z-index: 1;
 }
 #top-brand-logo{
+  filter: invert(100%);
   width: 20vw;
 }
 #background-stats-1{
